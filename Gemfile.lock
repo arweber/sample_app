@@ -89,7 +89,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rails (= 3.0.7)
-  rspec-rails (= 2.6.1)
+  rails
+  rspec-rails
   sqlite3
-  webrat (= 0.7.1)
+  webrat
