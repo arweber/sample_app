@@ -14,7 +14,7 @@ describe "The app" do
 
 	it "should have an About page at '/about'" do
 		get '/about'
-		response.should have_selector('title', content => "About")
+		response.should have_selector('title', :content => "About")
 	end
 
 	it "Should have a Help page at '/help'" do

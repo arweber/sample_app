@@ -22,4 +22,9 @@ describe "The app" do
 		response.should have_selector('title', :content => "Help")
 	end
 
+	it "Should have a sign-up page at '/signup'" do
+		get '/signup'
+		response.should have_selector('title', :content => "Sign Up")
+	end
+
 end
